@@ -1,5 +1,4 @@
 # Java Bank Account System
-
 ## Overview
 
 This Java project models a basic bank account system using object-oriented programming principles. It includes a base `BankAccount` class and a derived `CheckingAccount` class that supports overdraft handling and interest rates.
