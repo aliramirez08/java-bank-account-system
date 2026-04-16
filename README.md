@@ -1,9 +1,8 @@
 # Java Bank Account System
-Overview
 
 This Java project models a basic bank account system using object-oriented programming principles. It includes a base `BankAccount` class and a derived `CheckingAccount` class that supports overdraft handling and interest rates.
 
-This project was built to demonstrate:
+## Features
 
 - Class design and inheritance
 - Encapsulation through fields and methods
@@ -11,28 +10,21 @@ This project was built to demonstrate:
 - Overdraft logic with a fixed fee
 - Formatted console output for account summaries
 
-## Project Structure
-
-- `BankAccount.java` – Defines the base bank account with deposit, withdrawal, getters/setters, and account summary methods.
-- `CheckingAccount.java` – Extends `BankAccount`, adds an interest rate, and applies a `$30` fee when an overdraft occurs.
-- `BankAccountTest.java` – Contains the `main` method used to test account creation and account transactions.
-
-
-## Features
-
-- Create a bank account with owner details and account ID
-- Deposit money into an account
-- Withdraw money from an account
-- Apply overdraft behavior in a checking account
-- Display formatted account information
-- Demonstrate inheritance in Java
+## Concepts Demonstrated
+- Object-Oriented Programming (OOP)
+- Inheritance
+- Encapsulation
+- Conditional logic
 
 ## Technologies Used
-
 - Java
-- Object-Oriented Programming (OOP)
-- Visual Studio Code or any Java IDE
-- JDK 11 or higher
+- JDK 11+
+- Any Java IDE
+
+## Project Structure
+- `BankAccount.java` – Base account class
+- `CheckingAccount.java` – Extended account with overdraft logic
+- `BankAccountTest.java` – Main test program
 
 ## How to Run
 
@@ -81,15 +73,14 @@ Balance: $170.00
 Interest Rate: 1.25%
 ```
 
-## Concepts Demonstrated
-This project demonstrates object-oriented design in Java by using inheritance to extend a base bank account into a checking account with additional behavior. It also shows how transaction rules can be enforced through methods and conditional logic instead of relying on built-in shortcuts.
+## What I Learned
+This project strengthened my understanding of inheritance and how to extend base classes to add new behavior. I also learned how to implement real-world logic such as overdraft handling using conditional statements.
 
 ## Future Improvements
 - Add savings account support
-- Add input validation for account creation
+- Add input validation
 - Add unit tests
-- Store account data using files or a database
-- Build a simple GUI version
+- Store data using files or a database
 
 ## Screenshots
 
